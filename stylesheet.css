@@ -1,0 +1,214 @@
+
+nav {
+    background-color: black;
+    position: relative;
+    width: 100%;
+    height: 69px;
+    border-bottom: 2px solid seashell;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    max-height: 50px;
+    opacity: 0.7;
+    padding: 10px;
+}
+
+ul.breadcrumb a{
+    color: seashell;
+    opacity: 0.7;
+    background-color: black;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+}
+
+ul.breadcrumb li{
+    display: inline;
+    
+}
+
+ul.breadcrumb li+li::before{
+    content: '>';
+    color: seashell;
+    margin: 10px;
+}
+
+ul.breadcrumb li a:hover {
+    
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+body {
+    background-color: black;
+}
+
+
+.hero {
+    background-image: url('../tea-cozy/tea-cozy\ pictures/img-mission-background.webp');
+    background-position: center;
+    background-size: cover;
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    flex-direction: space-between;
+    justify-content: center;
+    align-items: center;
+    margin: 69px auto;
+}
+
+.hero-description {
+    
+    color: seashell;
+    width: 100%;
+    background-color: black;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h2 , h4 {
+    color: seashell;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tea {
+    width: 1000px;
+    font-size: 22px;
+    color: seashell;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.tea-discription {
+    color: seashell;
+    
+    
+
+}
+
+.array {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    align-content: center;
+    flex-direction: row;
+    margin: auto;
+    
+}
+
+.array2 {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px auto;
+}
+
+.fall {
+    background-image: url("../tea-cozy/tea-cozy\ pictures/img-berryblitz.jpg");
+    background-size: 300px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    
+}
+
+.spiced {
+    background-image: url("../tea-cozy/tea-cozy\ pictures/img-spiced-rum.jpg");
+    background-size: 300px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    
+}
+
+.dounuts {
+    background-image: url("../tea-cozy/tea-cozy\ pictures/img-donut.jpg");
+    background-size: 300px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    
+}
+
+.myrtle {
+    background-image: url("../tea-cozy/tea-cozy\ pictures/img-myrtle-ave.webp");
+    background-size: 300px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    
+}
+
+.bedford {
+    background-image: url("../tea-cozy/tea-cozy\ pictures/img-bedford-bizarre.jpg");
+    background-size: 300px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    
+}
+
+.array a {
+    background-color: black;
+    margin-top: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.array2 a {
+    background-color: black;
+    margin-top: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.locations {
+    background-image: url('../tea-cozy/tea-cozy\ pictures/img-locations-background.jpg');
+    background-position: center;
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-direction: space-between;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 69px auto;
+    
+}
+.locations2 {
+    display: flex;
+    flex-direction: row;
+    flex: content;
+    justify-content: space-around;
+    margin-top: 250px;
+    color: seashell;
+    
+}
+
+.locations2 a {
+    background-color: black;
+    border: 2px solid pink;
+}

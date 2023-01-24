@@ -200,15 +200,40 @@ h2 , h4 {
 }
 .locations2 {
     display: flex;
-    flex-direction: row;
-    flex: content;
-    justify-content: space-around;
-    margin-top: 250px;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 40px;
     color: seashell;
     
 }
 
+
+
 .locations2 a {
+    display: flex;
+    
+}
+
+.locations li {
+    display: inline-flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.locations2 li a  {
+    justify-content: center;
     background-color: black;
-    border: 2px solid pink;
+    background-size: 300px 200px;
+    justify-items: space-between;
+    padding: 40px;
+    margin: 40px;
+}
+
+footer {
+    color: seashell;
+    display: flex;
+    justify-content: center;
 }
